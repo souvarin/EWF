@@ -31,6 +31,7 @@ feature -- Basic operations
 			-- the response headers.
 			res.put_header ({HTTP_STATUS_CODE}.ok, <<["Content-Type", "text/plain"], ["Content-Length", "11"]>>)
 			res.put_string ("Hello World")
+			res.put_string ("Hello Wordl reloaded")
 		end
 
 end
