@@ -30,7 +30,7 @@ feature -- Basic operations
 			-- To send a response we need to setup, the status code and
 			-- the response headers.
 			res.put_header ({HTTP_STATUS_CODE}.ok, <<["Content-Type", "text/plain"], ["Content-Length", "11"]>>)
-			res.put_string ("Hello World just another mod")
+			res.put_string ("Hello World 99 just another mod")
 			res.put_string ("Hello World reloaded")
 		end
 
